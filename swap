@@ -1,0 +1,10 @@
+echo " enter two numbers "
+read num1 num2
+temp=$num1
+num1=$num2
+num2=$temp
+
+echo "After swapping:"
+echo "num1 = $num1"
+echo "num2 = $num2"
+
